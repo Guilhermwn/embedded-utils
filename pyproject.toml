@@ -1,9 +1,25 @@
 [tool.poetry]
 name = "embedded-utils"
 version = "0.1.0"
-description = ""
+description = "CLI Program for Embedded Programming Utils"
 authors = ["Guilhermwn <limaoplaykglp@gmail.com>"]
 readme = "README.md"
+license = "MIT"
+repository = "https://github.com/Guilhermwn/embedded-utils"
+keywords = ["embedded", "CLI", "microcontrollers", "mikroc", "pic"]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Natural Language :: English",
+    "Natural Language :: Portuguese",
+    "Natural Language :: Portuguese (Brazilian)"
+]
 
 [tool.poetry.scripts]
 embedded-utils = "embedded_utils.main:app"
